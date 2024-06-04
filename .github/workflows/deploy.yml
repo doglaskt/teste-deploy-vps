@@ -16,7 +16,7 @@ jobs:
               with:
                 host: "191.252.219.219"
                 username: "root"
-                key: ${{ secrets.SSH_PRIVATE_KEY }}
+                password: ${{ secrets.SSH_PRIVATE_KEY }}
                 source: "./index.html"
                 target: "/teste"
             
